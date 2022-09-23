@@ -65,6 +65,7 @@ function deleteNote(index) {
 
     shownotes()
 }
+//To search the notes
 let search = document.getElementById('searchTxt')
 search.addEventListener("input", function () {
     let inputval = search.value
